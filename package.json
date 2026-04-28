@@ -1,0 +1,24 @@
+{
+  "name": "@hamza_sehouli/moroccan-phone-formatter",
+  "version": "1.0.3",
+  "description": "Format and validate Moroccan phone numbers",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "morocco",
+    "phone",
+    "formatter",
+    "moroccan-phone"
+  ],
+  "scripts": {
+    "test": "node test/index.test.js",
+    "check": "node test/index.test.js"
+  },
+  "author": "Hamza Sehouli",
+  "license": "MIT",
+  "packageManager": "pnpm@10.7.1"
+}
