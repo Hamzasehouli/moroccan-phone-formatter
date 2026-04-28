@@ -20,5 +20,9 @@
   },
   "author": "Hamza Sehouli",
   "license": "MIT",
-  "packageManager": "pnpm@10.7.1"
+  "packageManager": "pnpm@10.7.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hamzasehouli/moroccan-phone-formatter.git"
+  }
 }
