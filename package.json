@@ -1,6 +1,6 @@
 {
   "name": "@hamza_sehouli/moroccan-phone-formatter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Format and validate Moroccan phone numbers",
   "type": "module",
   "main": "./src/index.js",
