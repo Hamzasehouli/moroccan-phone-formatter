@@ -13,7 +13,7 @@ Utilities to normalize, format, validate, and identify Moroccan phone numbers.
 ## Installation
 
 ```bash
-npm install @hamza_sehouli/moroccan-phone-formatter
+pnpm add @hamza_sehouli/moroccan-phone-formatter
 ```
 
 ## Usage
@@ -73,26 +73,6 @@ Returns one of:
 - `Orange Fixe`
 - `Inwi Fixe`
 - `Unknown`
-
-## Release automation
-
-This repository includes [`.github/workflows/release.yml](.github/workflows/release.yml), which:
-
-- runs on pushes to `main`
-- runs the test suite
-- bumps the patch version in `package.json`
-- creates and pushes the release tag
-- publishes the package to npm
-
-Required GitHub repository secrets:
-
-- `NPM_TOKEN`: npm access token with publish rights for the package
-
-## Development
-
-```bash
-node test/index.test.js
-```
 
 ## License
 
