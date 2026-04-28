@@ -35,7 +35,7 @@ jobs:
         run: npm test
 
       - name: Bump package version
-        run: npm version patch -m "chore: release %s [skip ci]"
+        run: 'npm version patch -m "chore: release %s [skip ci]"'
 
       - name: Push release commit and tag
         run: git push --follow-tags
