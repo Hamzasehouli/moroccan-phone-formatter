@@ -66,10 +66,10 @@ Returns `true` when the input can be normalized to a supported Moroccan number.
 
 Returns one of:
 
-- `IAM`
+- `Maroc Telecom`
 - `Orange`
 - `Inwi`
-- `IAM Fixe`
+- `Maroc Telecom Fixe`
 - `Orange Fixe`
 - `Inwi Fixe`
 - `Unknown`
